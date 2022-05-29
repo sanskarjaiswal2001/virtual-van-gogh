@@ -19,7 +19,7 @@
   },
   "compress": {
     "brotli": {
-        "enabled": false
+      "enabled": false
     }
-}
+  }
 }

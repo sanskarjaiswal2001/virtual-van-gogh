@@ -4,7 +4,7 @@
 // const web3 = new Web3(Web3.givenProvider);
 let web3 = new Web3(window.ethereum)
 
-
+//Direct code from metamask website to connect a metamask wallet
 const connectx = () => new Promise ((res, rej) => {
     if(window.ethereum !== undefined) {
         web3.eth.getAccounts((e,accounts) => {
